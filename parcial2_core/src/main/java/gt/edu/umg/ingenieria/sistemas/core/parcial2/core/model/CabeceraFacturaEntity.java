@@ -24,6 +24,9 @@ public class CabeceraFacturaEntity implements Serializable {
     @Column(name = "nit")
     private String nit;
     
+    @Column(name = "direccion")
+    private String direccion;
+    
     @Column(name = "fecha")
     @Temporal(javax.persistence.TemporalType.DATE)
     private Date date;
