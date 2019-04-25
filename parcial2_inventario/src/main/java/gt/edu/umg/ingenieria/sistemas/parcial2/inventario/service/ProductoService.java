@@ -19,10 +19,7 @@ public class ProductoService {
        
         
     }
-    
-    public ProductoEntity actualizarStock(Long id, Vehiculo c1){
-        return this.vehiculo.save(c1);
-    }
+  
     
      public ProductoEntity insertarProducto(ProductoEntity c1){
         return this.productoRepository.save(c1);
